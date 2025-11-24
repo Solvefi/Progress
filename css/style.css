@@ -37,13 +37,13 @@ body{
     transform: rotate(-90deg);
 }
 
-.progress-circle .background{
+.background{
     fill: none;
     stroke: gray;
     stroke-width: 10px;
 }
 
-.progress-circle .bar{
+.bar{
     fill: none;
     stroke: #005cff;
     stroke-width: 10px;
@@ -53,3 +53,32 @@ body{
     transition: stroke-dashoffset 0.5s ease;
 }
 
+.panel{
+    display: flex;
+    flex-direction: column;
+}
+
+.value, .animate, .hide{
+    margin-top: 10px;
+}
+
+input[type=text] {
+    border-radius: 3dvh;
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+@media (orientation: landscape) {
+    .container{
+        width: 568px;
+        height: 320px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .panel{
+        flex-direction: row;
+    }
+}

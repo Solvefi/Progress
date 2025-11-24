@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 320px;
+    height: 568px;
+    position:relative;
+    padding: 20px;
+    border: 1px dashed violet;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.circular-progress{
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 50%;
+}

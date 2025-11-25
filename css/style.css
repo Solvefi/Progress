@@ -61,6 +61,10 @@ body{
     to {stroke-dashoffset: 0;}
 }
 
+.hidden{
+    visibility: hidden;
+}
+
 .panel{
     display: flex;
     flex-direction: column;

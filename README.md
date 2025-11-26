@@ -5,11 +5,10 @@
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-# Preview
+## Preview
 https://solvefi.github.io/Progress/
 
 ## Особенности
-- Полностью нативный SVG — без библиотек и зависимостей
 - Плавная анимация заполнения круга
 - Ручная установка значения от 0 до 100
 - Переключатель бесконечной анимации
@@ -17,4 +16,4 @@ https://solvefi.github.io/Progress/
 
 ## Как запустить
 1. Склонируй репозиторий или скачай файлы
-2. Открой `index.html` в браузере — всё сразу работает!
+2. Открой `index.html` в браузере – сразу работает

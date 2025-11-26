@@ -19,7 +19,7 @@ body{
     height: 568px;
     align-items: center;
     padding: 20px;
-    border: 1px dashed violet;
+    /* border: 1px dashed violet; */
     display: flex;
     flex-direction: column;
     border-radius: 8px;
@@ -28,7 +28,7 @@ body{
 .circular-progress{
     width: 150px;
     height: 150px;
-    border: 1px dashed violet;
+    /* border: 1px dashed violet; */
     position: relative;
     margin: 50px;
 }
@@ -48,7 +48,8 @@ body{
     stroke: #005cff;
     stroke-width: 10px;
     stroke-linecap: round;
-    stroke-dashoffset: 100;
+    stroke-dashoffset: 283;
+    stroke-dasharray: 283 283;
     transition: stroke-dashoffset 0.5s ease;
 }
 
@@ -68,7 +69,8 @@ body{
 .panel{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    width: 150;
+    /* border: 1px dashed violet; */
 }
 
 .value, .animate, .hide{
@@ -76,11 +78,16 @@ body{
     display: inline-block;
 }
 
+.value{
+    padding-left: 5px;
+}
+
 input[type=text] {
     border-radius: 3dvh;
     height: 1.8em;
-    width: 2.8em;
+    width: 2.9em;
     text-align: center;
+    margin-right: 10px;
 }
 
 .checkbox-input{
@@ -93,7 +100,7 @@ input[type=text] {
     display: inline-block;
     position: relative;
     padding: 8px;
-    padding-left: 45px;
+    padding-left: 55px;
 }
 
 .toggle::before{

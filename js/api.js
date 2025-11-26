@@ -13,7 +13,9 @@ circle.style.strokeDashoffset = circumference;
 
 
 valueInput.addEventListener('change', function() {
-    const value = parseInt(valueInput.value) || 0;
+    let value = parseInt(valueInput.value) || 0;
+    if (value > 100) value = 100;
+    if (value < 0) value = 0
     setProgress(value);
 });
 

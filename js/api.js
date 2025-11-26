@@ -39,5 +39,6 @@ hideCheckbox.addEventListener('change', function() {
 
 function setProgress (percent){
     const offset = circumference - percent/100 * circumference;
+    circle.style.transition = 'stroke-dashoffset 0.5s ease';
     circle.style.strokeDashoffset = offset;
 }

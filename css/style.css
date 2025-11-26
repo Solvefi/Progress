@@ -50,7 +50,6 @@ body{
     stroke-linecap: round;
     stroke-dashoffset: 283;
     stroke-dasharray: 283 283;
-    transition: stroke-dashoffset 0.5s ease;
 }
 
 .progress-bar.animating{
@@ -88,6 +87,11 @@ input[type=text] {
     width: 2.9em;
     text-align: center;
     margin-right: 10px;
+}
+
+.value input:focus{
+    outline: none;
+    border-color: black;
 }
 
 .checkbox-input{

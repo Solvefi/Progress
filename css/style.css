@@ -82,9 +82,9 @@ body{
 }
 
 input[type=text] {
-    border-radius: 3dvh;
-    height: 1.8em;
-    width: 2.9em;
+    border-radius: 18px;
+    height: 25px;
+    width: 40px;
     text-align: center;
     margin-right: 10px;
 }
@@ -113,10 +113,10 @@ input[type=text] {
     position: absolute;
     transform: translateY(-2px);
     left: 0;
-    height: 1.5em;
-    width: 2.5em;
+    height: 25px;
+    width: 40px;
     background-color: #eaf0f6;
-    border-radius: 3dvh;
+    border-radius: 18px;
     transition: background-color .3s;
 }
 
@@ -125,10 +125,10 @@ input[type=text] {
     content: "";
     position: absolute;
     transform: translateY(-2px);
-    height: 1.3em;
-    width: 1.4em;
+    height: 21px;
+    width: 21px;
     background-color: #ffffff;
-    border-radius: 3dvh;
+    border-radius: 18px;
     left: 2px;
     bottom: 4px;
     transition: .3s left;
